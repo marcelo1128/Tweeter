@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class TwitterCrew extends Account {
+public class IndiUsers extends Account {
 ArrayList item = new ArrayList();
     
 	// Default list constructor
     /**
      * Default constructor
      */
-	 public TwitterCrew( ) { 
+	 public IndiUsers( ) { 
 		 item.size();
 	}
 
@@ -98,4 +98,11 @@ ArrayList item = new ArrayList();
 	    });
 		
 	}
+
+	//Sort the list
+	/**
+	 * Sorts the array list based on date
+	 */
+
 }
+

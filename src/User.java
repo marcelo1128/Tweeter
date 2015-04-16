@@ -75,11 +75,14 @@ public class User {
 		following = count;
 	}
 	
-	public void CreateUser (String user, String pass, String alias, String email){
-		setUsername(user);
-		setPassword(pass);
-		setEmail(email);
-		setAlias(alias);
+	public User (String user, String pass, String name, String web){
+		username= user;
+		password=pass;
+		email = web;
+		alias = name;
+		followers = 0;
+		tweetCount = 0;
+		following = 0;
 		//User created add to database below	
 	}
 	
